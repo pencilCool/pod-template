@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
-@interface CPDViewController : UIViewController
+@import TYHTestUtils;
+@interface CPDViewController : BaseTestActionTableVC
 
 @end

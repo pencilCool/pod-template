@@ -4,7 +4,7 @@ platform :ios, '11.0'
 
 target '${POD_NAME}_Example' do
   pod '${POD_NAME}', :path => '../'
-
+  pod 'TYHTestUtils',:git=>'https://github.com/pencilCool/TYHTestUtils.git'
   target '${POD_NAME}_Tests' do
     inherit! :search_paths
 
