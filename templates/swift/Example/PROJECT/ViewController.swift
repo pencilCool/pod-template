@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+import TYHTestUtils
+class ViewController: BaseTestActionTableVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
